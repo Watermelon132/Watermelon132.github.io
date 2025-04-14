@@ -1,4 +1,4 @@
-# Learning about DataBlocks in fastai — and Customizing Batch Sizes
+# Learning about DataBlocks in fastai — and Customising Batch Sizes
 As part of my journey through the fastai course, I encountered one of the most powerful and flexible tools the library offers: the DataBlock API. 
 Coming from a background in PyTorch, where data preprocessing often involves creating custom Dataset and DataLoader classes, I found fastai’s abstraction both elegant and beginner-friendly.
 
