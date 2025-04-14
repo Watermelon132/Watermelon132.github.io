@@ -11,7 +11,7 @@ A DataBlock in fastai is essentially a blueprint for building a DataLoaders obje
 
 - Getting the input items (e.g., image files),
 - Labeling the data (e.g., from filenames or folders),
-- Applying transformations (e.g., resizing, normalization),
+- Applying transformations (e.g., resising, normalization),
 - Splitting the data into training and validation sets,
 - Batching and feeding the data into the model.
 
@@ -30,7 +30,7 @@ What really surprised me was how much could be packed into a single, declarative
 
 ## Changing the Batch Size
 
-While experimenting, I noticed that training could sometimes be slow or cause memory issues on my GPU. That’s when I realized I could change the batch size (i.e. how many samples are processed at once during training).
+While experimenting, I noticed that training could sometimes be slow or cause memory issues on my GPU. That’s when I realised I could change the batch size (i.e. how many samples are processed at once during training).
 
 In fastai, adjusting the batch size is very straightforward — just pass the bs parameter when calling .dataloaders():
 ```python
